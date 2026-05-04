@@ -1,0 +1,13 @@
+{
+  "name": "360 AI Editor",
+  "run": {
+    "command": "bash process360.sh {{url}}",
+    "inputs": [
+      {
+        "name": "url",
+        "type": "text",
+        "label": "Paste 360 Video Link"
+      }
+    ]
+  }
+}
